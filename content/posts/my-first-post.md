@@ -1,6 +1,5 @@
 ---
 title: "My First Post"
-date: 2017-09-29T00:14:35+02:00
-draft: true
+date: 2017-10-02T13:30:41+02:00
 ---
 
