@@ -1,4 +1,4 @@
-baseURL = "https://www.monbelordi.fr/"
-languageCode = "fr-fr"
+baseURL = "/"
+languageCode = "fr"
 title = "MonBelOrdi"
 theme = "ananke"
