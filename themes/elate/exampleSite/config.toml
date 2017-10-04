@@ -1,30 +1,30 @@
 # Page settings
 baseurl = "localhost:1313"
-title = "MonBelOrdi"
-languageCode = "fr-fr"
-theme = "elate"
+title = "Elate theme"
+languageCode = "en-us"
+theme = "hugo-elate-theme"
 
 [params]
-
+  
   custom_css = ["css/custom1.css", "css/custom2.css"]
 
   # Meta
-  author = "Alain Sanguinetti"
-  description = "Réglez vos problèmes informatiques"
-  email = "contact@monbelordi.fr"
+  author = ""
+  description = ""
+  email = ""
   # Navigation
   [params.navigation]
-    brand = "MonBelOrdi"
-    home = "Accueil"
-    # work = "Work"
-    testimonials = "Témoignages"
-    services = "Expertise"
-    about = "A propos"
+    brand = "Elate"
+    home = "Home"
+    work = "Work"
+    testimonials = "Testimonials"
+    services = "Services"
+    about = "About"
     contact = "Contact"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
-
+    
     # prepended links
     #[[menu.prepend]]
     #  url = "http://gohugo.io"
@@ -36,18 +36,18 @@ theme = "elate"
     #  url = "http://gohugo.io"
     #  name = "External link"
     #  weight = 10
-
+  
   # Hero section
   [params.hero]
-    title = "Aimez vos outils informatiques"
-    subtitle = 'Ils nous simplifient la vie, nous permettent de communiquer avec le monde entier, ils sont indispensables. Laissez-nous vous les faire aimer.'
-
+    title = "Do something you love."
+    subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
+ 
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
   [[params.intro.item]]
-    title = "Conseil"
+    title = "Plan"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     url = "#"
     button = "Get In Touch"
@@ -55,23 +55,23 @@ theme = "elate"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Formation"
+    title = "Develop"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     url = "#"
     button = "Click Me"
-    icon = "icon-rocket"
+    icon = "icon-wrench"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Dépannage"
+    title = "Launch"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     url = "#"
     button = "Why us?"
-    icon = "icon-wrench"
+    icon = "icon-rocket"
     img = "img_10.jpg"
 
   [params.intro.video]
-    enable = false
+    enable = true
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
@@ -79,7 +79,7 @@ theme = "elate"
 
   # Work section
   [params.work]
-    enable = false
+    enable = true
     title = "Work"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
@@ -123,8 +123,8 @@ theme = "elate"
   # Testimonials section
   [params.testimonials]
     enable = true
-    title = "Témoignages"
-    description = "Ce sont nos clients qui parlent le mieux de nous."
+    title = "Testimonials"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.testimonials.item]]
       quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
@@ -143,14 +143,14 @@ theme = "elate"
       person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
       img = "person3.jpg"
       alt = "Person3"
-
+    
 
 
 
   # Services section
   [params.services]
     enable = true
-    title = "Expertise"
+    title = "Services"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.services.item]]
@@ -169,21 +169,31 @@ theme = "elate"
 
       [[params.services.item]]
       title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
       icon = "icon-monitor"
 
   # About section
   [params.about]
-
-    # See about.html to configure an appropriate offset
     enable = true
-    title = "A propos"
-    description = "Voici qui se cache derrière la marque « MonBelOrdi »"
+    title = "About"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.about.item]]
-      name = "Alain Sanguinetti"
-      position = "Ingénieur en informatique"
-      description = "Je suis tombé dans la marmite de l’informatique quand j’étais petit .."
+      name = "Jean Smith"
+      position = "Web Designer"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "person1.jpg"
+      alt = "Person1"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Rob Smith"
+      position = "Web Developer"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "person2.jpg"
       alt = "Person2"
       social = [
@@ -191,18 +201,18 @@ theme = "elate"
         ["icon-facebook", "#"],
         ["icon-github", "#"]
       ]
-    #
-    # [[params.about.item]]
-    #   name = "Larry Ben"
-    #   position = "Web Designer"
-    #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-    #   img = "person3.jpg"
-    #   alt = "Person3"
-    #   social = [
-    #     ["icon-twitter", "#"],
-    #     ["icon-facebook", "#"],
-    #     ["icon-dribbble", "#"]
-    #   ]
+
+    [[params.about.item]]
+      name = "Larry Ben"
+      position = "Web Designer"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "person3.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]      
 
   # Counters section
   [params.counters]
@@ -211,7 +221,7 @@ theme = "elate"
     background = "full_image_1.jpg"
 
     [[params.counters.item]]
-      description = "Interventions"
+      description = "Finished projects"
       icon = "icon-briefcase"
       from = 0
       to = 89
@@ -219,7 +229,7 @@ theme = "elate"
       speed = 5000
 
     [[params.counters.item]]
-      description = "Heures"
+      description = "Lines of code"
       icon = "icon-code"
       from = 0
       to = 2343409
@@ -227,10 +237,18 @@ theme = "elate"
       speed = 5000
 
     [[params.counters.item]]
-      description = "Clients satisfaits"
+      description = "Cups of coffee"
       icon = "icon-cup"
       from = 0
       to = 1302
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Happy clients"
+      icon = "icon-people"
+      from = 0
+      to = 52
       interval = 50
       speed = 5000
 
@@ -238,22 +256,22 @@ theme = "elate"
   [params.contact]
     enable = true
     map = true
-    title = "Contactez-moi"
+    title = "Get in touch"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
+    
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "241 rue de Charenton, B/3D, 75012 PARIS"],
-        ["icon-phone", "+33 7.70.03.56.46"],
-        ["icon-envelope", "contact@monbelordi.fr"],
-        # ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
+        ["icon-phone", "(123) 465-6789"],
+        ["icon-envelope", "info@freehtml5.co"],
+        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
       ]
 
-    name = "Nom"
+    name = "Name"
     email = "Email"
-    phone = "Téléphone"
+    phone = "Phone"
     message = "Message"
-    button = "Envoyer"
+    button = "Send message"
 
   # Footer section
   [params.footer]
