@@ -1,0 +1,7 @@
+.navbar-brand, h2 {
+  font-family: "Galada", Arial, sans-serif;
+}
+
+.section-heading h2 {
+  text-transform: none;
+}
