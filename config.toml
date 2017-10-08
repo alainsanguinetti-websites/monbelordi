@@ -6,11 +6,7 @@ theme = "elate"
 
 [params]
 
-<<<<<<< HEAD
   custom_css = ["css/2017_10_08_font.css"]
-=======
-  custom_css = ["css/custom1.css", "css/custom2.css"]
->>>>>>> origin/release_0
 
   # Meta
   author = "Alain Sanguinetti"
@@ -51,46 +47,26 @@ theme = "elate"
   [params.intro]
 
   [[params.intro.item]]
-<<<<<<< HEAD
     title = "Choix"
     description = "Dans la vie, il y a les appareils qui ont l’air bien, ceux qui sont bien et ceux qui en plus sont en promo ! Mais tout ça dépend de vos besoins, alors passons-les en revue ensemble."
     url = "#contact"
     button = "Prendre rendez-vous"
-=======
-    title = "Conseil"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Get In Touch"
->>>>>>> origin/release_0
     icon = "icon-bulb"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-<<<<<<< HEAD
     title = "Cours"
     description = "En informatique, on a toujours quelque chose à apprendre ! Et vous, qu’allez-vous apprendre aujourd’hui ?"
     url = "#contact"
     button = "Je veux progresser"
-=======
-    title = "Formation"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
->>>>>>> origin/release_0
     icon = "icon-rocket"
     img = "img_8.jpg"
 
   [[params.intro.item]]
     title = "Dépannage"
-<<<<<<< HEAD
     description = "Tout n’est pas perdu! Contactez-nous pour voir ce que vous pouvez récupérer : le matériel, les données, les réglages. Pas de gestes précipités, contactez-nous d’abord."
     url = "#contac"
     button = "J’appelle le médecin"
-=======
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Why us?"
->>>>>>> origin/release_0
     icon = "icon-wrench"
     img = "img_10.jpg"
 
@@ -146,11 +122,7 @@ theme = "elate"
 
   # Testimonials section
   [params.testimonials]
-<<<<<<< HEAD
     enable = false
-=======
-    enable = true
->>>>>>> origin/release_0
     title = "Témoignages"
     description = "Ce sont nos clients qui parlent le mieux de nous."
 
@@ -179,7 +151,6 @@ theme = "elate"
   [params.services]
     enable = true
     title = "Expertise"
-<<<<<<< HEAD
     description = "Nous sommes des professionnels."
 
     [[params.services.item]]
@@ -203,29 +174,6 @@ theme = "elate"
       icon = "icon-video2"
 
 
-=======
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-    [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
-
-    [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
-    [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
-
-      [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-monitor"
->>>>>>> origin/release_0
-
   # About section
   [params.about]
 
@@ -241,15 +189,9 @@ theme = "elate"
       img = "person2.jpg"
       alt = "Person2"
       social = [
-<<<<<<< HEAD
         ["icon-twitter", "https://www.twitter.com/al1sangui"],
         ["icon-facebook", "https://www.facebook.com/alain.sanguinetti"],
         ["icon-github", "https://github.com/alainsanguinetti"]
-=======
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
->>>>>>> origin/release_0
       ]
     #
     # [[params.about.item]]
@@ -274,53 +216,32 @@ theme = "elate"
       description = "Interventions"
       icon = "icon-briefcase"
       from = 0
-<<<<<<< HEAD
       to = 42
       interval = 3
-=======
-      to = 89
-      interval = 50
->>>>>>> origin/release_0
       speed = 5000
 
     [[params.counters.item]]
       description = "Heures"
       icon = "icon-code"
       from = 0
-<<<<<<< HEAD
       to = 72
       interval = 3
-=======
-      to = 2343409
-      interval = 50
->>>>>>> origin/release_0
       speed = 5000
 
     [[params.counters.item]]
       description = "Clients satisfaits"
       icon = "icon-cup"
       from = 0
-<<<<<<< HEAD
       to = 42
       interval = 3
-=======
-      to = 1302
-      interval = 50
->>>>>>> origin/release_0
       speed = 5000
 
   # Contact section
   [params.contact]
     enable = true
-<<<<<<< HEAD
     map = false
     title = "Contactez-nous"
     description = "Nous sommes à votre écoute."
-=======
-    map = true
-    title = "Contactez-moi"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
->>>>>>> origin/release_0
 
     # Available icons: http://simplelineicons.com/
     details = [
